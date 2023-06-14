@@ -1,0 +1,83 @@
+/* Gaya CSS untuk elemen body dan html */
+html, body {
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0;
+}
+
+/* Gaya CSS untuk elemen #container */
+#container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Gaya CSS untuk elemen footer */
+footer {
+  margin-top: auto;
+}
+
+/* Gaya CSS untuk elemen header */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Gaya CSS untuk elemen nav */
+nav {
+  background-color: #3102cc;
+  padding: 10px;
+}
+
+/* Gaya CSS untuk elemen nav a */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+/* Gaya CSS untuk elemen nav a.active */
+nav a.active {
+  background-color: #5234e7;
+  border-radius: 5px;
+}
+
+/* Gaya CSS untuk elemen #wrapper */
+#wrapper {
+  flex-grow: 1;
+  display: flex;
+}
+
+/* Gaya CSS untuk elemen #main */
+#main {
+  flex-grow: 1;
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Gaya CSS untuk elemen #sidebar */
+#sidebar {
+  flex-basis: 200px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Gaya CSS untuk elemen .widget-box */
+.widget-box {
+  margin-bottom: 20px;
+}
+
+/* Gaya CSS untuk elemen .title */
+.title {
+  margin-bottom: 10px;
+}
+
+/* Gaya CSS untuk elemen footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
